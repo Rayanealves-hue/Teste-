@@ -21,11 +21,11 @@ Respostas do Caleb de 10/6/26 (arquivo Index0_6764.pdf). O que já entrou no sit
 | Clarion Sales Center | 82 Chevy Lane, Clarion, PA 16214 |
 | Muncy Sales Center | 2705 PA 442, Muncy, PA 17756 |
 
-**Folha "For Benuel's card (copy example 2)":** é para o cartão do Benuel e lista **mais locais e contatos**. Ainda não entrou no site. Confirmar com o Caleb quais destes vão para o site oficial:
+**Folha "For Benuel's card (copy example 2)" (só para o site oficial):** é para o cartão do Benuel e lista **mais locais e contatos**. Ainda não entrou no site. Confirmar com o Caleb quais destes vão para o site oficial:
 - Production: Charles Stauffer, tel. 717.444.0078, fax 717.444.0079, 110 Davidson Road, Liverpool PA 17045
 - Wanner Transportation / shed moving: 814.470.4494, 110 Davidson Rd, Liverpool PA 17045
 - Benuel Stoltzfus, shed delivery scheduling: classicstructurespa@gmail.com, 814.470.4494
-- Selinsgrove Sales Center (6354 Susquehanna Trail, Port Trevorton PA 17864): Jason McCartney, 717.460.8078, jrmccartney84@gmail.com
+- Selinsgrove Sales Center (6354 Susquehanna Trail, Port Trevorton PA 17864): Jason McCartney, **+1 717.460.8078** (confirmado pela Rayane), jrmccartney84@gmail.com
 - Beaver Springs Sales Center (22210 Rt 522, Beaver Springs PA 17812): Roger Snook
 - Muncy Sales Center (2705 PA 442, Muncy PA 17756): Hunter Heivly, 570.916.9166, hunterheivly@live.com
 - Clarion Sales Center, Terry's Sales (82 Chevy Lane, Clarion PA 16214): Terry Theiss, 814.764.6200, ttheiss@windstream.net
@@ -33,7 +33,7 @@ Respostas do Caleb de 10/6/26 (arquivo Index0_6764.pdf). O que já entrou no sit
 - Rustburg Sales Center (11626 Wards Road, Rustburg VA 24588): Susan Hall, 434.944.6998, susan@smshedadventures.com
 - Yoder Outlet (14342 PA 36, Punxsutawney PA 15767): Noah Yoder, 814.952.9091, yoderoutlet@yahoo.com
 
-Atenção: o Jason aparece com **717.460.8078** no cartão. No bilhete antigo era 717.460.8079. Confirmar.
+Telefone do Jason confirmado: **+1 717.460.8078**. O 717.460.8079 do bilhete antigo estava errado.
 
 ## Cidades para páginas por cidade (site oficial)
 Pittsburgh PA, Allentown PA, Lehighton PA, Frederick MD, Georgetown DE, Leonardtown MD, Bel Air MD, Scranton PA, Harrisburg PA, Carlisle PA, York PA, Somerville NJ.
@@ -72,3 +72,7 @@ Pittsburgh PA, Allentown PA, Lehighton PA, Frederick MD, Georgetown DE, Leonardt
 ## FAQ
 - ✅ Ele acrescentou na pergunta 5: "You get free delivery with only one month's rent down."
 - O campo "Approved" (pergunta 26) ficou **em branco**. O FAQ foi publicado no site simples com as correções dele. Se ele quiser mudar algo, a gente ajusta.
+
+## Pendente com o Caleb
+- Se existe valor ou tamanho mínimo para o financiamento de 10 anos. A pergunta está no e-mail de aprovação de 10/6/26.
+- Clicar no link de confirmação do formulário que vai chegar no classicstructurespa@gmail.com, quando o Rafael ligar o formulário.
