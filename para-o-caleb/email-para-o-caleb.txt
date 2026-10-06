@@ -1,47 +1,119 @@
-Subject: Your website updates: classicshedbuilders.com (screenshots attached)
+Subject: Classic Shed Builders LLC website: screenshots for your approval + questions
 
 Hi Caleb,
 
-Thank you for your notes. We made the changes you asked for. Since you don't have a computer, the attached PDF shows every page as it looks on a phone, plus the FAQ draft for your approval at the end.
+Thank you for your notes. We made the changes you asked for. Since you don't have a computer, the attached PDF shows every page of classicshedbuilders.com as it looks on a phone. At the end of the PDF there is a draft FAQ for your approval. It is not on the website yet.
 
-What we changed:
-- Logo: we now use the sign logo (Classic Shed Builders LLC, Lifetime Warranty) at the top and bottom of every page.
-- Name: "Classic Shed Builders LLC" is now in the page titles and footer.
-- Headline: the home page now says "Quality Outdoor Structures for Sale".
-- Call to action on every page: "Got clutter? Need elbow room? 1. Call Now 2. On-Time Delivery 3. Enjoy".
-- Email: caleb@ibyfax.com was removed. The site now shows selinsgroveclassicstructures@gmail.com.
+WHAT WE CHANGED
+- Logo: the sign logo (Classic Shed Builders LLC, Lifetime Warranty) is now at the top and bottom of every page.
+- Name: "Classic Shed Builders LLC" is in the page titles and the footer.
+- Headline on the home page: "Quality Outdoor Structures for Sale".
+- On every page: "Got clutter? Need elbow room? 1. Call Now 2. On-Time Delivery 3. Enjoy".
+- Email: caleb@ibyfax.com was removed from the site (see questions 1 and 2).
 - Delivery: free delivery anywhere within 250 miles of Liverpool, PA (excluding NY). Service area: the entire U.S., excluding New York.
+- 110 Davidson Rd is now shown as our shop (manufacturing), not a retail location.
+- Rent to Own page with your real numbers: "from $100.93 a month", and a table with the cash price and the 60, 48, 36 and 24 month amounts for every style and size, from your price lists.
+- About Us: your write-up, with small grammar fixes only.
+- "We take care of everything": shed removal, site preparation and installation, with the four Old Shed Removal photos.
 - New pages: Rent to Own, Delivery & Site Prep, Warranty, About Us, Contact, Thank You and Privacy Policy.
+- Sam (814.299.3885) is noted as the person who will keep the site up to date.
 
-Answers by number:
-1. Call to action: added to every page, as described above.
-1.5 Retail addresses: the site now says 110 Davidson Rd is our shop (manufacturing, not a retail location), and that retail locations are open Monday to Saturday, 9am to 6pm. Please send us the addresses of your retail locations and we will add them with map links.
-2. Delivery in action: we added "We take care of everything" (shed removal, site preparation, installation) and the four Old Shed Removal photos from your brochure. We don't have any video yet. Please send us delivery videos or photos and we will add them.
-3. Rent-to-own monthly price: the home page shows "Rent-to-Own from $100.93/mo", and the Rent to Own page shows it in large print.
-4. Text messages: can 814.470.4494 receive text messages? If yes, we will add a "Text us" button next to "Call Now".
-5. Delivery radius: updated to 250 miles from Liverpool, PA (excluding NY).
-6. In-stock buildings: not on the site yet. Please send us a list of in-stock buildings (style, size, price and a photo) and we will add an In-Stock page.
-7. Sam: noted. Sam (814.299.3885) will be the person we train to keep the site up to date.
-8. Financing and Rent to Own page: done, with actual numbers from your price lists. Pick any style to see the cash price and the monthly amount for every size (60, 48, 36 and 24 months for LP SmartSide and custom vinyl structures).
-9. About Us: your write-up is on the new About Us page, with a short version on the home page. We only fixed small grammar points. Please check that it reads the way you want.
+QUESTIONS
+We want the complete website to use only information that comes from you. Please answer by number. You can write on this page and send it back by email or fax.
 
-Checklist 11 to 24:
+Email and contact
+1. Email shown on the website: please write the email address customers should see on the website to contact you.
+   Answer: ______________________________
+2. Email for the quote form: please write the email address that should receive the quote requests sent from the website. (We are setting it up with selinsgroveclassicstructures@gmail.com. Please confirm or write a different one.)
+   Answer: ______________________________
+3. Should anyone else also receive the quote requests (for example Jason, 717.460.8079)? If yes, what is their email?
+   Answer: ______________________________
+4. Text messages: can 814.470.4494 receive text messages? If yes, we will add a "Text us" button.
+   Answer: ______________________________
+5. Other phone numbers: your letterhead shows 717.440.0078 (plant) and 585.735.2003. Should either of these be on the website, or only 814.470.4494?
+   Answer: ______________________________
+6. Fax: our agreement lists fax 585.205.9009, and your letterhead shows 585.318.2063. Which fax number is correct? Should the fax number be on the website?
+   Answer: ______________________________
+
+Name and web address
+7. You wrote that deleting "LLC" from the name could hurt SEO. Do you want:
+   (a) the name "Classic Shed Builders LLC" on the website, and keep the web address classicshedbuilders.com, or
+   (b) a new web address, classicshedbuildersllc.com?
+   Answer: ______________________________
+
+Locations
+8. Retail locations: please send the address of each retail location where customers can see buildings (open Monday to Saturday, 9am to 6pm).
+   Answer: ______________________________
+9. Service area: please list the towns you most want to reach (about 12), for future town pages.
+   Answer: ______________________________
+
+Delivery and services
+10. Delivery beyond 250 miles: what does delivery cost outside the free area? (An earlier flyer mentioned $5 per mile.)
+   Answer: ______________________________
+11. Old shed removal: is it free, or is there a charge? If there is a charge, how much?
+   Answer: ______________________________
+12. Site preparation: may we publish the stone pad and timbered site prices from your Site Evaluation & Prep sheet?
+   Answer: ______________________________
+
+Prices, rent to own and financing
+13. Prices: please confirm the 7.1.26 price lists (LP SmartSide, Custom Vinyl and Garages) and the 8.1.26 Timber Frame Pavilion list are the current prices to publish.
+   Answer: ______________________________
+14. Rent to own: we use your price-list formula (cash price divided by 27 for 60 months, 24 for 48 months, 21.6 for 36 months and 16.9 for 24 months). Is that correct? Is there a deposit, sales tax or any other charge we should mention?
+   Answer: ______________________________
+15. Financing: what is your lender's name, and what rates and terms may we show? (Zero down, and 120 months for buildings built on site.)
+   Answer: ______________________________
+16. October Special ($100 of free options for every $2,500, until 10-31-26): is there a new special for November? What should the site show after October 31?
+   Answer: ______________________________
+17. Referral reward ($50 for you, $50 off for your friend): is it still active?
+   Answer: ______________________________
+
+Warranty
+18. Please confirm: Lifetime Warranty = the building covered in full for 40 years, non-transferable, on vinyl and LP SmartSide buildings. Timber frame pavilions are sold without warranty.
+   Answer: ______________________________
+
+Photos, video and in-stock buildings
+19. In-stock buildings: for each building on your lots, please send a photo, size, style, cash price and the lot where it is. Who will tell us when a building sells or arrives?
+   Answer: ______________________________
+20. Delivery video or photos: please send any videos or photos of a delivery or installation (for example with the Mule).
+   Answer: ______________________________
+21. Old shed removal: do you have a photo of the new Classic shed installed in the same spot? It would complete the before-and-after.
+   Answer: ______________________________
+22. Building photos: please send full-size photos of your buildings, especially of these styles, which have no photo yet: Backyard Utility, A-Frame, Keystone Farmhouse Elite, Quaker Carriage House, the LP SmartSide garages, the custom vinyl styles and the vinyl garages.
+   Answer: ______________________________
+23. About Us: may we add photos of your family or team? If yes, please send them with names and roles.
+   Answer: ______________________________
+
+Online listings and tools
+24. Google reviews: please send the link to your Google reviews page. (We will add the Facebook link once Facebook approves the name change to Classic.)
+   Answer: ______________________________
+25. Google Business Profile, Bing, Apple Maps, Yelp and BBB: do you already have any of these accounts? If yes, which ones, and who has the login?
+   Answer: ______________________________
+26. Belles Springs: to find and fix the older Belles Springs listings, what business name, address and phone number did they use?
+   Answer: ______________________________
+27. 3D shed builder: do you already have a Shed Suite (or other 3D builder) account? If not, should we set one up in Classic Shed Builders LLC's name?
+   Answer: ______________________________
+
+Approval
+28. Please review the PDF and the FAQ draft, and tell us what to change, or write "Approved".
+   Answer: ______________________________
+
+YOUR CHECKLIST (11 TO 24)
 11. Accounts in your name with two-step sign-in: [status to confirm]
 12. Pages (home, rent to own, delivery, warranty, about, contact, privacy, thank you and error): done.
-13. Price file and pages: your price lists are in one price file and on the Rent to Own page. A separate page for every building and nine category pages with filters: not done yet.
-14. 3D shed builder: not done yet.
+13. Price file and pages: your prices are in one price file and on the Rent to Own page. A page for every building and nine category pages with filters: not done yet.
+14. 3D shed builder: not done yet (see question 27).
 15. Photos sized for the web, with descriptions for search engines: done.
 16. Texts for rent to own, delivery, warranty and about: done. FAQ: draft attached for your approval.
-17. Quote form and thank you page: done. Connecting the form to the email is in progress. Counter for call taps, text taps and form sends: not done yet.
+17. Quote form and thank you page: done. Connecting the form to the email: in progress (see question 2). Counter for call taps, text taps and form sends: not done yet.
 18. Web address pointed at the site: done. Making www.classicshedbuilders.com forward to the main address: in progress.
 19. Google Analytics, Search Console and Bing Webmaster Tools: [status to confirm]
-20. Google Business Profile, Bing Places, Apple Maps, Facebook, Yelp and BBB: [status to confirm]
-21. Older Belles Springs records: [status to confirm]
-22. Business information in the format search engines read: done for your business details on the home page. Buildings and prices: not done yet.
+20. Google Business Profile, Bing Places, Apple Maps, Facebook, Yelp and BBB: [status to confirm] (see question 25)
+21. Older Belles Springs records: [status to confirm] (see question 26)
+22. Business information in the format search engines read: done for your business details. Buildings and prices: not done yet.
 23. Training Sam: not started yet.
 24. Hand-over sign-off: not started yet.
 
-Please reply with your corrections to the FAQ, and with any answers to items 1.5, 2, 4 and 6.
+Thank you, Caleb. Your answers will let us finish the complete website.
 
 Best regards,
 Rayane Alves
