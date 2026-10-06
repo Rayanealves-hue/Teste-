@@ -316,3 +316,30 @@ details.padprices summary{cursor:pointer;font:700 1.15rem/1.3 var(--serif);color
 .catgrid.hq img{aspect-ratio:3/2}
 @media (max-width:820px){.catgrid.hq{grid-template-columns:repeat(2,1fr)}}
 @media (max-width:480px){.catgrid.hq{grid-template-columns:1fr}}
+/* price lists as text */
+.pltabs{display:flex;gap:14px;flex-wrap:wrap;margin-top:10px}
+.plcat{font:700 1.45rem/1.3 var(--serif);color:var(--green);margin:40px 0 12px;padding-bottom:6px;border-bottom:2px solid var(--tan)}
+.plnote{color:var(--muted);margin:0 0 12px}
+.plstyles{display:grid;gap:10px}
+details.plstyle{background:var(--paper);border:1px solid var(--line);border-left:5px solid var(--green)}
+details.plstyle summary{cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:14px;padding:14px 18px}
+details.plstyle summary::-webkit-details-marker{display:none}
+details.plstyle summary b{font:700 1.12rem/1.3 var(--serif);color:var(--green);display:block}
+details.plstyle summary small{color:var(--muted);font-size:.9rem}
+details.plstyle .from{text-align:right;white-space:nowrap;font-size:.95rem;color:var(--muted)}
+details.plstyle .from b{display:inline;font:700 1.15rem/1 var(--sans);color:var(--ink)}
+details.plstyle .from em{display:block;font-style:normal;font-weight:700;color:var(--brown)}
+details.plstyle[open] summary{border-bottom:1px solid var(--line)}
+.plbody{display:grid;grid-template-columns:1fr 1.2fr;gap:24px;padding:18px}
+.plbody>*{min-width:0}.plbody h4{margin:0 0 10px;font:600 .85rem/1 var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--brown)}
+.plbody .tablewrap{max-height:520px;overflow:auto}
+@media (max-width:820px){.plbody{grid-template-columns:1fr}}
+details.plgroup{background:var(--paper);border:1px solid var(--line);margin-bottom:8px}
+details.plgroup summary{cursor:pointer;padding:13px 18px;font-weight:700;color:var(--green)}
+table.plopt{width:100%;border-collapse:collapse}
+table.plopt td{padding:9px 18px;border-top:1px solid var(--line);vertical-align:top}
+table.plopt td:last-child{text-align:right;font-weight:700;white-space:nowrap}
+@media (max-width:560px){table.plopt td:last-child{white-space:normal}}
+dl.plspecs{display:grid;grid-template-columns:1fr 1fr;gap:10px 28px;margin:0}
+dl.plspecs div{border-bottom:1px solid var(--line);padding:6px 0}dl.plspecs dt{font-weight:700;color:var(--green)}dl.plspecs dd{margin:2px 0 0}
+@media (max-width:820px){dl.plspecs{grid-template-columns:1fr}}

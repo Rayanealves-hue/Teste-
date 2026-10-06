@@ -78,7 +78,7 @@ Pittsburgh PA, Allentown PA, Lehighton PA, Frederick MD, Georgetown DE, Leonardt
 - Ele perguntou o endereço exato do site: **https://classicshedbuilders.com**.
 - Pediu mais fotos das tabelas de preços. Entraram 7 fotos em alta qualidade, conferidas com a capa do catálogo LP SmartSide e com a tabela dos pavilions. Ficaram de fora 5 fotos que não aparecem nos PDFs dele.
 - Pediu para **tirar fotos de galpões de metal com revestimento horizontal** ("estilo antigo"). Saiu a foto do galpão branco de metal, e a da estufa foi recortada para não mostrar o galpão de metal ao fundo. Não usar esse tipo de foto no site oficial.
-- Pediu que as **tabelas de preços** possam ser vistas clicando em LP ou vinil. Foi criada a página Price Lists, com as 8 páginas que ele anexou.
+- Pediu que as **tabelas de preços** possam ser vistas clicando em LP ou vinil. A página Price Lists traz o conteúdo das tabelas digitado em texto: estilos, itens inclusos, preço de cada tamanho, opções e especificações.
 - As tabelas que ele anexou dizem "Free delivery anywhere in PA and 50 miles beyond state line". O site diz 250 milhas, como ele confirmou em 10/6. Pedir a tabela corrigida.
 
 ## Pendente com o Caleb

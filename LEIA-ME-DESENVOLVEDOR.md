@@ -17,7 +17,7 @@ classic-shed-builders-site-final.zip
 │   ├── warranty.html         ← garantia vitalícia
 │   ├── about.html            ← sobre nós (texto do Caleb)
 │   ├── faq.html              ← perguntas frequentes
-│   ├── price-lists.html      ← tabelas de preços (LP SmartSide e Custom Vinyl)
+│   ├── price-lists.html      ← tabelas de preços em texto: estilos, itens inclusos, preços, opções e especificações
 │   ├── contact.html          ← contato e formulário de orçamento
 │   ├── thank-you.html        ← página de agradecimento depois do formulário (noindex)
 │   ├── privacy.html          ← política de privacidade
@@ -28,14 +28,14 @@ classic-shed-builders-site-final.zip
 │   └── assets/
 │       ├── site.css
 │       ├── site.js
-│       └── img/              ← 43 imagens (logo, fotos, catálogo e páginas das tabelas)
+│       └── img/              ← 24 imagens (logo e fotos)
 ├── classic-v3.html           ← arquivo-fonte (um arquivo só, com todas as páginas dentro)
 ├── tools/build_site.py       ← gera a pasta site/ a partir do arquivo-fonte
 └── LEIA-ME-DESENVOLVEDOR.md  ← este guia
 ```
 
 - Site **100% estático** (HTML, CSS e JavaScript puro). Não precisa de banco de dados, PHP, WordPress nem Node.
-- Tamanho total da pasta `site/`: cerca de 8,4 MB. Os links entre páginas são relativos (`rent-to-own.html`, `index.html#types`).
+- Tamanho total da pasta `site/`: cerca de 5,7 MB. Os links entre páginas são relativos (`rent-to-own.html`, `index.html#types`).
 - Fontes: Google Fonts (Libre Baskerville e Montserrat), carregadas pelo `index.html`.
 - Funciona em celular e computador, nos modos claro e escuro.
 
