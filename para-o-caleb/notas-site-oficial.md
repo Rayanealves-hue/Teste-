@@ -73,6 +73,13 @@ Pittsburgh PA, Allentown PA, Lehighton PA, Frederick MD, Georgetown DE, Leonardt
 - ✅ Ele acrescentou na pergunta 5: "You get free delivery with only one month's rent down."
 - O campo "Approved" (pergunta 26) ficou **em branco**. O FAQ foi publicado no site simples com as correções dele. Se ele quiser mudar algo, a gente ajusta.
 
+## Respostas de 10/6/26 (Index0_6768.pdf)
+- Financiamento: **não mostrar números de financiamento**. Deixar o **valor mensal do rent to own bem visível**. A coluna e os valores de 10 anos foram tirados.
+- Ele perguntou o endereço exato do site: **https://classicshedbuilders.com**.
+- Pediu mais fotos tiradas das tabelas de preços. Foram colocadas 18 fotos do catálogo na página inicial.
+- Pediu para **tirar fotos de galpões de metal com revestimento horizontal** ("estilo antigo"). Saiu a foto do galpão branco de metal, e a da estufa foi recortada para não mostrar o galpão de metal ao fundo. Não usar esse tipo de foto no site oficial.
+- Pediu que as **tabelas de preços** possam ser vistas clicando em LP ou vinil. Foi criada a página Price Lists, com as 8 páginas que ele anexou.
+- As tabelas que ele anexou dizem "Free delivery anywhere in PA and 50 miles beyond state line". O site diz 250 milhas, como ele confirmou em 10/6. Pedir a tabela corrigida.
+
 ## Pendente com o Caleb
-- Se existe valor ou tamanho mínimo para o financiamento de 10 anos. A pergunta está no e-mail de aprovação de 10/6/26.
 - Clicar no link de confirmação do formulário que vai chegar no classicstructurespa@gmail.com, quando o Rafael ligar o formulário.

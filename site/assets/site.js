@@ -55,10 +55,10 @@ applyPick();document.addEventListener('pageshown',applyPick);
  const groups={};PRICES.forEach((p,k)=>{(groups[p[0]]=groups[p[0]]||[]).push(k)});
  sel.innerHTML=Object.entries(groups).map(([g,ks])=>`<optgroup label="${g}">`+ks.map(k=>`<option value="${k}">${PRICES[k][1]}</option>`).join('')+'</optgroup>').join('');
  function draw(){const p=PRICES[+sel.value],rows=p[2],terms=TERMS.includes(p[0]);
-  document.querySelector('#prices table.rto thead tr').innerHTML='<th scope="col">Size</th><th scope="col">Cash price</th><th scope="col">Rent to own, 60 months</th>'+(terms?DIV.map(d=>`<th scope="col">${d[0]} months</th>`).join(''):'')+'<th scope="col">Financing, 10 years</th>';
-  $('rto-body').innerHTML=rows.map(r=>{const c=n(r[1]),fin=`<td>${money(Math.round(c*0.0132*100)/100)}/mo</td>`,span=terms?4:1;
+  document.querySelector('#prices table.rto thead tr').innerHTML='<th scope="col">Size</th><th scope="col">Cash price</th><th scope="col">Rent to own, 60 months</th>'+(terms?DIV.map(d=>`<th scope="col">${d[0]} months</th>`).join(''):'');
+  $('rto-body').innerHTML=rows.map(r=>{const c=n(r[1]),span=terms?4:1;
    const rto=!r[2]?`<td colspan="${span}">Call for financing</td>`:c>MAX?`<td colspan="${span}">Over the $25,000 rent-to-own limit</td>`:`<td class="m">${r[2]}/mo</td>`+(terms?DIV.map(d=>`<td>${money(Math.round(c/d[1]*100)/100)}/mo</td>`).join(''):'');
-   return `<tr><td>${ft(r[0])}${r[2]?'':' †'}</td><td>${r[1]}</td>`+rto+(r[2]?fin:'<td>Call</td>')+'</tr>'}).join('');
+   return `<tr><td>${ft(r[0])}${r[2]?'':' †'}</td><td>${r[1]}</td>`+rto+'</tr>'}).join('');
   const r=rows.find(x=>x[2]);$('rto-ex').innerHTML=`Example: the <b>${ft(r[0])} ${p[1]}</b> is <b>${r[1]}</b> cash, or <b>${r[2]} a month</b> on 60-month rent-to-own`+(terms?` (${DIV.map(d=>money(Math.round(n(r[1])/d[1]*100)/100)+' for '+d[0]).join(', ')} months).`:'.');}
  sel.addEventListener('change',draw);draw();})();
 /* quote form: sends to the form service when data-endpoint is set, otherwise prepares the text */

@@ -17,6 +17,7 @@ classic-shed-builders-site-final.zip
 │   ├── warranty.html         ← garantia vitalícia
 │   ├── about.html            ← sobre nós (texto do Caleb)
 │   ├── faq.html              ← perguntas frequentes
+│   ├── price-lists.html      ← tabelas de preços (LP SmartSide e Custom Vinyl)
 │   ├── contact.html          ← contato e formulário de orçamento
 │   ├── thank-you.html        ← página de agradecimento depois do formulário (noindex)
 │   ├── privacy.html          ← política de privacidade
@@ -27,14 +28,14 @@ classic-shed-builders-site-final.zip
 │   └── assets/
 │       ├── site.css
 │       ├── site.js
-│       └── img/              ← 18 imagens (logo de placa + fotos)
+│       └── img/              ← 43 imagens (logo, fotos, catálogo e páginas das tabelas)
 ├── classic-v3.html           ← arquivo-fonte (um arquivo só, com todas as páginas dentro)
 ├── tools/build_site.py       ← gera a pasta site/ a partir do arquivo-fonte
 └── LEIA-ME-DESENVOLVEDOR.md  ← este guia
 ```
 
 - Site **100% estático** (HTML, CSS e JavaScript puro). Não precisa de banco de dados, PHP, WordPress nem Node.
-- Tamanho total da pasta `site/`: cerca de 4,5 MB. Os links entre páginas são relativos (`rent-to-own.html`, `index.html#types`).
+- Tamanho total da pasta `site/`: cerca de 8,4 MB. Os links entre páginas são relativos (`rent-to-own.html`, `index.html#types`).
 - Fontes: Google Fonts (Libre Baskerville e Montserrat), carregadas pelo `index.html`.
 - Funciona em celular e computador, nos modos claro e escuro.
 
@@ -81,7 +82,7 @@ Passos:
 
 ## 5. Depois de no ar: checklist
 
-- [ ] Abrir no celular e no computador. Conferir o menu (três risquinhos), as 9 páginas, os botões "Get a Quote" (o do cartão já escolhe o prédio no formulário), o carrossel de fotos, o carrossel de avaliações, a tabela de preços do Rent to Own e o formulário.
+- [ ] Abrir no celular e no computador. Conferir o menu (três risquinhos), as 10 páginas, os botões "Get a Quote" (o do cartão já escolhe o prédio no formulário), o carrossel de fotos, o carrossel de avaliações, a tabela de preços do Rent to Own e o formulário.
 - [ ] Tocar no telefone 814.470.4494 no celular e confirmar que abre a ligação.
 - [ ] Conferir se `www.classicshedbuilders.com` redireciona para `https://classicshedbuilders.com` (um endereço principal, o outro redirecionando).
 - [ ] **Google Search Console:** verificar o domínio e enviar `https://DOMINIO/sitemap.xml`.
