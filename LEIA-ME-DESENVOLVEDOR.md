@@ -1,7 +1,7 @@
 # Classic Shed Builders: pacote para colocar o site no ar
 
 **Site aprovado (prévia):** https://claude.ai/artifact/MNqPrJ995bMyHiS9P3XjYr
-**Cliente:** Classic Shed Builders LLC, oficina 110 Davidson Rd., Liverpool, PA 17045 (não é loja), 814.470.4494, selinsgroveclassicstructures@gmail.com
+**Cliente:** Classic Shed Builders LLC, oficina 110 Davidson Rd., Liverpool, PA 17045 (não é loja), 814.470.4494, classicstructurespa@gmail.com
 **Domínio:** https://classicshedbuilders.com (registro A → 45.55.170.20)
 
 ---
@@ -16,6 +16,7 @@ classic-shed-builders-site-final.zip
 │   ├── delivery.html         ← entrega, remoção do galpão antigo, preparo do terreno
 │   ├── warranty.html         ← garantia vitalícia
 │   ├── about.html            ← sobre nós (texto do Caleb)
+│   ├── faq.html              ← perguntas frequentes
 │   ├── contact.html          ← contato e formulário de orçamento
 │   ├── thank-you.html        ← página de agradecimento depois do formulário (noindex)
 │   ├── privacy.html          ← política de privacidade
@@ -33,7 +34,7 @@ classic-shed-builders-site-final.zip
 ```
 
 - Site **100% estático** (HTML, CSS e JavaScript puro). Não precisa de banco de dados, PHP, WordPress nem Node.
-- Tamanho total da pasta `site/`: cerca de 4,2 MB. Os links entre páginas são relativos (`rent-to-own.html`, `index.html#types`).
+- Tamanho total da pasta `site/`: cerca de 4,5 MB. Os links entre páginas são relativos (`rent-to-own.html`, `index.html#types`).
 - Fontes: Google Fonts (Libre Baskerville e Montserrat), carregadas pelo `index.html`.
 - Funciona em celular e computador, nos modos claro e escuro.
 
@@ -67,20 +68,20 @@ Enviar o **conteúdo** de `site/` para a pasta `public_html/` pelo gerenciador d
 
 ## 4. Formulário de orçamento: ação necessária
 
-O formulário fica em `contact.html` e já está pronto para um serviço de formulário. **Os pedidos devem chegar em selinsgroveclassicstructures@gmail.com.**
+O formulário fica em `contact.html` e já está pronto para um serviço de formulário. **Os pedidos devem chegar em classicstructurespa@gmail.com.**
 
 - Enquanto `data-endpoint` estiver vazio, o botão **"Submit Form"** só monta o pedido na tela para o visitante copiar. Nenhum e-mail é enviado.
 - Com o endereço preenchido, o site envia os dados por `POST` (FormData, com `Accept: application/json`) e, se a resposta for OK, abre `thank-you.html`.
 
 Passos:
-1. Criar o formulário no **Formspree** (https://formspree.io) na conta do cliente, com destino selinsgroveclassicstructures@gmail.com. Pode ser outro serviço que aceite POST e responda 200.
+1. Criar o formulário no **Formspree** (https://formspree.io) na conta do cliente, com destino classicstructurespa@gmail.com. Pode ser outro serviço que aceite POST e responda 200.
 2. Em `classic-v3.html`, trocar `data-endpoint=""` por `data-endpoint="https://formspree.io/f/SEU-ID"` e rodar o build de novo. Também dá para editar direto em `site/contact.html`.
 3. Os campos enviados são `first_name`, `last_name`, `phone`, `email`, `zip`, `building` e `message`.
 4. Fazer um envio de teste e confirmar que chegou e que abriu a página de agradecimento.
 
 ## 5. Depois de no ar: checklist
 
-- [ ] Abrir no celular e no computador. Conferir o menu (três risquinhos), as 8 páginas, os botões "Get a Quote" (o do cartão já escolhe o prédio no formulário), o carrossel de fotos, o carrossel de avaliações, a tabela de preços do Rent to Own e o formulário.
+- [ ] Abrir no celular e no computador. Conferir o menu (três risquinhos), as 9 páginas, os botões "Get a Quote" (o do cartão já escolhe o prédio no formulário), o carrossel de fotos, o carrossel de avaliações, a tabela de preços do Rent to Own e o formulário.
 - [ ] Tocar no telefone 814.470.4494 no celular e confirmar que abre a ligação.
 - [ ] Conferir se `www.classicshedbuilders.com` redireciona para `https://classicshedbuilders.com` (um endereço principal, o outro redirecionando).
 - [ ] **Google Search Console:** verificar o domínio e enviar `https://DOMINIO/sitemap.xml`.

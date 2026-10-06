@@ -12,6 +12,8 @@ const $=id=>document.getElementById(id);
   document.dispatchEvent(new Event('pageshown'));
   const el=a&&document.getElementById(a);if(el)el.scrollIntoView();else scrollTo(0,0);}
  addEventListener('hashchange',show);show();})();
+/* October special: hide after October 31, 2026 */
+if(Date.now()>=Date.parse('2026-11-01T00:00:00-04:00'))document.querySelectorAll('.offer').forEach(o=>o.remove());
 /* menu */
 (()=>{const b=$('burger'),d=$('drawer');
  b.addEventListener('click',()=>{d.hidden=!d.hidden;b.setAttribute('aria-expanded',String(!d.hidden))});
@@ -48,13 +50,15 @@ function applyPick(){const sel=$('q-type');if(!sel)return;try{const v=sessionSto
 applyPick();document.addEventListener('pageshown',applyPick);
 /* rent to own price table: 60-month amounts from the price list; 48/36/24 use the list's divisors (LP SmartSide and custom vinyl structures) */
 (()=>{const sel=$('rto-style');if(!sel)return;
- const TERMS=['LP SmartSide Structures','Custom Vinyl Structures'],DIV=[[48,24],[36,21.6],[24,16.9]];
+ const MAX=25000,TERMS=['LP SmartSide Structures','Custom Vinyl Structures'],DIV=[[48,24],[36,21.6],[24,16.9]];
  const n=s=>+s.replace(/[$,]/g,''),money=x=>'$'+x.toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2}),ft=s=>s.replace(' x ',"' x ")+"'";
  const groups={};PRICES.forEach((p,k)=>{(groups[p[0]]=groups[p[0]]||[]).push(k)});
  sel.innerHTML=Object.entries(groups).map(([g,ks])=>`<optgroup label="${g}">`+ks.map(k=>`<option value="${k}">${PRICES[k][1]}</option>`).join('')+'</optgroup>').join('');
  function draw(){const p=PRICES[+sel.value],rows=p[2],terms=TERMS.includes(p[0]);
-  document.querySelector('table.rto thead tr').innerHTML='<th scope="col">Size</th><th scope="col">Cash price</th><th scope="col">60 months</th>'+(terms?DIV.map(d=>`<th scope="col">${d[0]} months</th>`).join(''):'');
-  $('rto-body').innerHTML=rows.map(r=>`<tr><td>${ft(r[0])}${r[2]?'':' †'}</td><td>${r[1]}</td>`+(r[2]?`<td class="m">${r[2]}/mo</td>`+(terms?DIV.map(d=>`<td>${money(Math.round(n(r[1])/d[1]*100)/100)}/mo</td>`).join(''):''):`<td colspan="${terms?4:1}">Call for financing</td>`)+'</tr>').join('');
+  document.querySelector('#prices table.rto thead tr').innerHTML='<th scope="col">Size</th><th scope="col">Cash price</th><th scope="col">Rent to own, 60 months</th>'+(terms?DIV.map(d=>`<th scope="col">${d[0]} months</th>`).join(''):'')+'<th scope="col">Financing, 10 years</th>';
+  $('rto-body').innerHTML=rows.map(r=>{const c=n(r[1]),fin=`<td>${money(Math.round(c*0.0132*100)/100)}/mo</td>`,span=terms?4:1;
+   const rto=!r[2]?`<td colspan="${span}">Call for financing</td>`:c>MAX?`<td colspan="${span}">Over the $25,000 rent-to-own limit</td>`:`<td class="m">${r[2]}/mo</td>`+(terms?DIV.map(d=>`<td>${money(Math.round(c/d[1]*100)/100)}/mo</td>`).join(''):'');
+   return `<tr><td>${ft(r[0])}${r[2]?'':' †'}</td><td>${r[1]}</td>`+rto+(r[2]?fin:'<td>Call</td>')+'</tr>'}).join('');
   const r=rows.find(x=>x[2]);$('rto-ex').innerHTML=`Example: the <b>${ft(r[0])} ${p[1]}</b> is <b>${r[1]}</b> cash, or <b>${r[2]} a month</b> on 60-month rent-to-own`+(terms?` (${DIV.map(d=>money(Math.round(n(r[1])/d[1]*100)/100)+' for '+d[0]).join(', ')} months).`:'.');}
  sel.addEventListener('change',draw);draw();})();
 /* quote form: sends to the form service when data-endpoint is set, otherwise prepares the text */

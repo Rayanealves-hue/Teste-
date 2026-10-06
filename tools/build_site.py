@@ -14,7 +14,7 @@ OUT = os.path.join(ROOT, 'site')
 DOMAIN = 'https://YOUR-DOMAIN.com'
 if '--domain' in sys.argv:
     DOMAIN = sys.argv[sys.argv.index('--domain') + 1].rstrip('/')
-EMAIL = 'selinsgroveclassicstructures@gmail.com'
+EMAIL = 'classicstructurespa@gmail.com'
 
 s = open(SRC, encoding='utf-8').read()
 shutil.rmtree(OUT, ignore_errors=True)
