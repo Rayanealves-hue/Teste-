@@ -86,31 +86,29 @@ Photos, video and in-stock buildings
    Answer: ______________________________
 
 Online listings and tools
-24. Google Business Profile: you don't have a Google business page yet. May we create one in Classic Shed Builders LLC's name? Google will ask to verify the business (for example by phone, video or a postcard), so we will need your help for that step. (We will add the Facebook link to the website once Facebook approves the name change to Classic.)
+24. Bing, Apple Maps, Yelp and BBB: do you already have any of these accounts? If yes, which ones, and who has the login?
    Answer: ______________________________
-25. Bing, Apple Maps, Yelp and BBB: do you already have any of these accounts? If yes, which ones, and who has the login?
+25. Belles Springs: to find and fix the older Belles Springs listings, what business name, address and phone number did they use?
    Answer: ______________________________
-26. Belles Springs: to find and fix the older Belles Springs listings, what business name, address and phone number did they use?
-   Answer: ______________________________
-27. 3D shed builder: do you already have a Shed Suite (or other 3D builder) account? If not, should we set one up in Classic Shed Builders LLC's name?
+26. 3D shed builder: do you already have a Shed Suite (or other 3D builder) account? If not, should we set one up in Classic Shed Builders LLC's name?
    Answer: ______________________________
 
 Approval
-28. Please review the PDF and the FAQ draft, and tell us what to change, or write "Approved".
+27. Please review the PDF and the FAQ draft, and tell us what to change, or write "Approved".
    Answer: ______________________________
 
 YOUR CHECKLIST (11 TO 24)
 11. Accounts in your name with two-step sign-in: [status to confirm]
 12. Pages (home, rent to own, delivery, warranty, about, contact, privacy, thank you and error): done.
 13. Price file and pages: your prices are in one price file and on the Rent to Own page. A page for every building and nine category pages with filters: not done yet.
-14. 3D shed builder: not done yet (see question 27).
+14. 3D shed builder: not done yet (see question 26).
 15. Photos sized for the web, with descriptions for search engines: done.
 16. Texts for rent to own, delivery, warranty and about: done. FAQ: draft attached for your approval.
 17. Quote form and thank you page: done. Connecting the form to the email: in progress (see question 2). Counter for call taps, text taps and form sends: not done yet.
 18. Web address pointed at the site: done. Making www.classicshedbuilders.com forward to the main address: in progress.
 19. Google Analytics, Search Console and Bing Webmaster Tools: [status to confirm]
-20. Google Business Profile, Bing Places, Apple Maps, Facebook, Yelp and BBB: [status to confirm] (see questions 24 and 25)
-21. Older Belles Springs records: [status to confirm] (see question 26)
+20. Google Business Profile, Bing Places, Apple Maps, Facebook, Yelp and BBB: [status to confirm] (see question 24)
+21. Older Belles Springs records: [status to confirm] (see question 25)
 22. Business information in the format search engines read: done for your business details. Buildings and prices: not done yet.
 23. Training Sam: not started yet.
 24. Hand-over sign-off: not started yet.
