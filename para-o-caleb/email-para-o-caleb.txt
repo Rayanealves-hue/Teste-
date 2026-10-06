@@ -36,9 +36,9 @@ Email and contact
    Answer: ______________________________
 
 Name and web address
-7. You wrote that deleting "LLC" from the name could hurt SEO. Do you want:
-   (a) the name "Classic Shed Builders LLC" on the website, and keep the web address classicshedbuilders.com, or
-   (b) a new web address, classicshedbuildersllc.com?
+7. You wrote that deleting "LLC" from the name could hurt SEO. We added "LLC" to the company name on the website: the page titles, the logo, the footer and the business information Google reads. Please choose one:
+   (a) Keep "Classic Shed Builders LLC" on the website, and keep the web address as it is: classicshedbuilders.com
+   (b) Also add "LLC" to the web address: classicshedbuildersllc.com
    Answer: ______________________________
 
 Locations
