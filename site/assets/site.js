@@ -51,7 +51,7 @@ function applyPick(){const sel=$('q-type');if(!sel)return;try{const v=sessionSto
 applyPick();document.addEventListener('pageshown',applyPick);
 /* rent to own price table: 60-month amounts from the price list; 48/36/24 use the list's divisors (LP SmartSide and custom vinyl structures) */
 (()=>{const sel=$('rto-style');if(!sel)return;
- const MAX=25000,TERMS=['LP SmartSide Structures','Custom Vinyl Structures'],DIV=[[48,24],[36,21.6],[24,16.9]];
+ const MAX=25000,TERMS=['LP SmartSide Structures','LP SmartSide Garages','Custom Vinyl Structures','Vinyl Garages'],DIV=[[48,24],[36,21.6],[24,16.9]];
  const n=s=>+s.replace(/[$,]/g,''),money=x=>'$'+x.toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2}),ft=s=>s.replace(' x ',"' x ")+"'";
  const groups={};PRICES.forEach((p,k)=>{(groups[p[0]]=groups[p[0]]||[]).push(k)});
  sel.innerHTML=Object.entries(groups).map(([g,ks])=>`<optgroup label="${g}">`+ks.map(k=>`<option value="${k}">${PRICES[k][1]}</option>`).join('')+'</optgroup>').join('');

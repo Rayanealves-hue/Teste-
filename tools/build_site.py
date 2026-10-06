@@ -82,9 +82,6 @@ local = {
     "telephone": "+1-814-470-4494", "email": EMAIL,
     "address": {"@type": "PostalAddress", "streetAddress": "110 Davidson Rd.", "addressLocality": "Liverpool",
                 "addressRegion": "PA", "postalCode": "17045", "addressCountry": "US"},
-    "openingHoursSpecification": [{"@type": "OpeningHoursSpecification",
-                                   "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-                                   "opens": "09:00", "closes": "18:00"}],
 }
 
 
