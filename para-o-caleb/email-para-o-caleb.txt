@@ -1,0 +1,48 @@
+Subject: Your website updates: classicshedbuilders.com (screenshots attached)
+
+Hi Caleb,
+
+Thank you for your notes. We made the changes you asked for. Since you don't have a computer, the attached PDF shows every page as it looks on a phone, plus the FAQ draft for your approval at the end.
+
+What we changed:
+- Logo: we now use the sign logo (Classic Shed Builders LLC, Lifetime Warranty) at the top and bottom of every page.
+- Name: "Classic Shed Builders LLC" is now in the page titles and footer.
+- Headline: the home page now says "Quality Outdoor Structures for Sale".
+- Call to action on every page: "Got clutter? Need elbow room? 1. Call Now 2. On-Time Delivery 3. Enjoy".
+- Email: caleb@ibyfax.com was removed. The site now shows selinsgroveclassicstructures@gmail.com.
+- Delivery: free delivery anywhere within 250 miles of Liverpool, PA (excluding NY). Service area: the entire U.S., excluding New York.
+- New pages: Rent to Own, Delivery & Site Prep, Warranty, About Us, Contact, Thank You and Privacy Policy.
+
+Answers by number:
+1. Call to action: added to every page, as described above.
+1.5 Retail addresses: the site now says 110 Davidson Rd is our shop (manufacturing, not a retail location), and that retail locations are open Monday to Saturday, 9am to 6pm. Please send us the addresses of your retail locations and we will add them with map links.
+2. Delivery in action: we added "We take care of everything" (shed removal, site preparation, installation) and the four Old Shed Removal photos from your brochure. We don't have any video yet. Please send us delivery videos or photos and we will add them.
+3. Rent-to-own monthly price: the home page shows "Rent-to-Own from $100.93/mo", and the Rent to Own page shows it in large print.
+4. Text messages: can 814.470.4494 receive text messages? If yes, we will add a "Text us" button next to "Call Now".
+5. Delivery radius: updated to 250 miles from Liverpool, PA (excluding NY).
+6. In-stock buildings: not on the site yet. Please send us a list of in-stock buildings (style, size, price and a photo) and we will add an In-Stock page.
+7. Sam: noted. Sam (814.299.3885) will be the person we train to keep the site up to date.
+8. Financing and Rent to Own page: done, with actual numbers from your price lists. Pick any style to see the cash price and the monthly amount for every size (60, 48, 36 and 24 months for LP SmartSide and custom vinyl structures).
+9. About Us: your write-up is on the new About Us page, with a short version on the home page. We only fixed small grammar points. Please check that it reads the way you want.
+
+Checklist 11 to 24:
+11. Accounts in your name with two-step sign-in: [status to confirm]
+12. Pages (home, rent to own, delivery, warranty, about, contact, privacy, thank you and error): done.
+13. Price file and pages: your price lists are in one price file and on the Rent to Own page. A separate page for every building and nine category pages with filters: not done yet.
+14. 3D shed builder: not done yet.
+15. Photos sized for the web, with descriptions for search engines: done.
+16. Texts for rent to own, delivery, warranty and about: done. FAQ: draft attached for your approval.
+17. Quote form and thank you page: done. Connecting the form to the email is in progress. Counter for call taps, text taps and form sends: not done yet.
+18. Web address pointed at the site: done. Making www.classicshedbuilders.com forward to the main address: in progress.
+19. Google Analytics, Search Console and Bing Webmaster Tools: [status to confirm]
+20. Google Business Profile, Bing Places, Apple Maps, Facebook, Yelp and BBB: [status to confirm]
+21. Older Belles Springs records: [status to confirm]
+22. Business information in the format search engines read: done for your business details on the home page. Buildings and prices: not done yet.
+23. Training Sam: not started yet.
+24. Hand-over sign-off: not started yet.
+
+Please reply with your corrections to the FAQ, and with any answers to items 1.5, 2, 4 and 6.
+
+Best regards,
+Rayane Alves
+Nordic Wave Marketing
