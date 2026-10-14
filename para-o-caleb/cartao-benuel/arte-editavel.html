@@ -21,12 +21,14 @@ html,body{background:#fff}
 .front .who{font:500 5.6pt/1.2 Montserrat;color:#fff;margin-bottom:.045in}.front .who b{font-weight:700}
 .front .addr{font:500 5.4pt/1.35 Montserrat;color:#E6D9C6;margin-top:.05in}
 /* BACK */
+.back .strip{position:absolute;left:0;right:0;top:0;height:.53in;display:flex;gap:.02in;background:var(--tan);border-bottom:.02in solid var(--tan)}
+.back .strip i{flex:1;background-size:cover;background-position:50% 60%}
 .back{background:var(--cream);color:var(--ink)}
 .back .top{position:absolute;left:0;right:0;top:0;height:.48in;display:flex;align-items:flex-end;justify-content:center;padding-bottom:.02in}
 .back .top p{font:700 8.4pt/1 "Libre Baskerville",Georgia,serif;color:var(--maroon2);letter-spacing:.2pt}
-.back .qrs{position:absolute;left:.32in;right:.32in;top:.58in;display:flex;justify-content:space-between}
+.back .qrs{position:absolute;left:.32in;right:.32in;top:.64in;display:flex;justify-content:space-between}
 .back .q{width:.92in;text-align:center}
-.back .box{width:.62in;height:.62in;margin:0 auto;border:.01in dashed #A99A86;display:flex;align-items:center;justify-content:center;font:600 5pt Montserrat;color:#A99A86;letter-spacing:.8pt;background:#fff}
+.back .box{width:.56in;height:.56in;margin:0 auto;border:.01in dashed #A99A86;display:flex;align-items:center;justify-content:center;font:600 5pt Montserrat;color:#A99A86;letter-spacing:.8pt;background:#fff}
 .back .q .n{font:700 6.6pt/1 "Libre Baskerville",serif;color:var(--brown);margin-top:.06in}
 .back .q .t{font:500 5.3pt/1.25 Montserrat;color:#5C5249;margin-top:.025in}
 .back .bar{position:absolute;left:0;right:0;bottom:0;height:.6in;background:var(--maroon);color:var(--cream);display:flex;flex-direction:column;align-items:center;justify-content:center;padding-bottom:.21in;gap:.025in}
@@ -50,7 +52,7 @@ html,body{background:#fff}
   </div>
 </section>
 <section class="card back">
-  <div class="top"><p>Design. Deliver. Enjoy.</p></div>
+  <div class="strip"><i style="background-image:url(p1.jpg)"></i><i style="background-image:url(p2.jpg);background-position:50% 35%"></i><i style="background-image:url(p3.jpg)"></i></div>
   <div class="qrs">
     <div class="q"><div class="box">QR</div><div class="n">Design</div><div class="t">Build your shed online</div></div>
     <div class="q"><div class="box">QR</div><div class="n">Deliver</div><div class="t">See how we deliver</div></div>
