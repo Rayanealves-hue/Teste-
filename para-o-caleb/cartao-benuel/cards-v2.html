@@ -1,0 +1,88 @@
+<!doctype html><html><head><meta charset="utf-8"><link href="fonts-local.css" rel="stylesheet">
+<style>
+@page{size:3.75in 2.25in;margin:0}
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--wine:#7A2E3B;--wine2:#5E222D;--cream:#F6EEE4;--tan:#E2B77A}
+.card{width:3.75in;height:2.25in;position:relative;overflow:hidden;page-break-after:always;font-family:Montserrat,Arial,sans-serif;background:var(--wine)}
+/* FRONT: like the current Samuel Zook card */
+.front .photo{position:absolute;top:0;right:0;bottom:0;width:1.62in;background:url(shedphoto.jpg) 50% 60%/cover no-repeat}
+.front .photo .logo{position:absolute;top:.27in;right:.22in;width:1.0in;filter:drop-shadow(0 .01in .02in rgba(0,0,0,.35))}
+.front .info{position:absolute;left:.32in;top:.36in;width:1.7in;color:var(--cream)}
+.front h1{font:700 11.5pt/1.1 Montserrat;color:#fff}
+.front .title{font:500 6.8pt/1.2 Montserrat;color:var(--cream);margin-top:.03in}
+.front .line{height:.01in;background:var(--tan);width:1.55in;margin:.09in 0 .08in}
+.front .c{font:500 6.6pt/1.45 Montserrat;color:#fff}
+.front .c .ext{color:var(--tan);font-weight:600}
+.front .addr{font:500 6.4pt/1.4 Montserrat;color:var(--cream);margin-top:.09in}
+.ph{color:var(--tan);font-style:italic}
+/* BACK: Heritage-style, room for QR codes */
+.back{color:var(--cream);text-align:center}
+.back .top{position:absolute;left:0;right:0;top:.32in;display:flex;flex-direction:column;align-items:center;gap:.03in}
+.back .top .a{font:700 7.4pt/1.2 "Libre Baskerville",Georgia,serif;letter-spacing:.6pt;color:#fff;text-transform:uppercase}
+.back .top .w{font:500 6pt/1 Montserrat;letter-spacing:.8pt;color:var(--tan);text-transform:uppercase}
+.back .qrs{position:absolute;left:.4in;right:.4in;top:.78in;display:flex;justify-content:space-around}
+.back .q{width:.8in;display:flex;flex-direction:column;align-items:center;gap:.05in}
+.back .box{width:.56in;height:.56in;background:#fff;border:.012in dashed #B9A08A;display:flex;align-items:center;justify-content:center;font:600 5pt Montserrat;color:#B9A08A;letter-spacing:.8pt}
+.back .q span{font:500 5.6pt/1.25 Montserrat;color:var(--cream)}
+.back .tag{position:absolute;left:0;right:0;bottom:.3in;font:700 6.2pt/1 Montserrat;letter-spacing:1.4pt;color:var(--tan);text-transform:uppercase}
+</style></head><body>
+<section class="card front" id="c1">
+  <div class="photo"><img class="logo" src="logo.png" alt=""></div>
+  <div class="info">
+    <h1>Jason McCartney</h1><div class="title"><span class="ph">[title]</span></div>
+    <div class="line"></div>
+    <div class="c"><span class="ph">[email to be confirmed]</span></div>
+    <div class="c">(814) 470-4494 <span class="ext">ext. 1</span></div>
+    <div class="addr">110 Davidson Road<br>Liverpool, PA 17045</div>
+  </div>
+</section>
+<section class="card front" id="c2">
+  <div class="photo"><img class="logo" src="logo.png" alt=""></div>
+  <div class="info">
+    <h1>Rodger Snook</h1><div class="title"><span class="ph">[title]</span></div>
+    <div class="line"></div>
+    <div class="c"><span class="ph">[email to be confirmed]</span></div>
+    <div class="c">(814) 470-4494 <span class="ext">ext. 2</span></div>
+    <div class="addr">110 Davidson Road<br>Liverpool, PA 17045</div>
+  </div>
+</section>
+<section class="card front" id="c3">
+  <div class="photo"><img class="logo" src="logo.png" alt=""></div>
+  <div class="info">
+    <h1>Sam Zook</h1><div class="title">Sales Manager</div>
+    <div class="line"></div>
+    <div class="c"><span class="ph">[email to be confirmed]</span></div>
+    <div class="c">(814) 470-4494 <span class="ext">ext. 3</span></div>
+    <div class="addr">110 Davidson Road<br>Liverpool, PA 17045</div>
+  </div>
+</section>
+<section class="card front" id="c4">
+  <div class="photo"><img class="logo" src="logo.png" alt=""></div>
+  <div class="info">
+    <h1>Benuel Stoltzfus</h1><div class="title">Shed Delivery Scheduling</div>
+    <div class="line"></div>
+    <div class="c"><span class="ph">[email to be confirmed]</span></div>
+    <div class="c">(814) 470-4494 <span class="ext">ext. 4</span></div>
+    <div class="addr">110 Davidson Road<br>Liverpool, PA 17045</div>
+  </div>
+</section>
+<section class="card front" id="c5">
+  <div class="photo"><img class="logo" src="logo.png" alt=""></div>
+  <div class="info">
+    <h1>Charlie Stauffer</h1><div class="title">Shop Manager</div>
+    <div class="line"></div>
+    <div class="c"><span class="ph">[email to be confirmed]</span></div>
+    <div class="c">(814) 470-4494 <span class="ext">ext. 5</span></div>
+    <div class="addr">110 Davidson Road<br>Liverpool, PA 17045</div>
+  </div>
+</section>
+<section class="card back" id="cb">
+  <div class="top"><div class="a">110 Davidson Road, Liverpool, PA 17045</div><div class="w">classicshedbuilders.com</div></div>
+  <div class="qrs">
+    <div class="q"><div class="box">QR</div><span>Design your<br>dream shed!</span></div>
+    <div class="q"><div class="box">QR</div><span>What's in<br>stock now</span></div>
+    <div class="q"><div class="box">QR</div><span>See our<br>delivery process</span></div>
+  </div>
+  <div class="tag">Sheds, Garages, Barns &amp; More</div>
+</section>
+</body></html>
