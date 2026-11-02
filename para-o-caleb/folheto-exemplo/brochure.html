@@ -7,7 +7,7 @@ body{font-family:Montserrat,Arial,sans-serif;color:var(--ink)}
 .page{width:8.5in;height:11in;position:relative;overflow:hidden;page-break-after:always;background:var(--cream)}
 h1,h2,h3{font-family:"Libre Baskerville",Georgia,serif}
 /* PAGE 1 */
-.hero{height:4.9in;background:url(hero.jpg) center 62%/cover;position:relative}
+.hero{height:4.9in;background:#2A4650 url(hero.jpg) center 35%/cover;position:relative}
 .hero:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(35,55,64,.15) 0%,rgba(35,55,64,.85) 100%)}
 .hero .in{position:absolute;left:.6in;right:.6in;bottom:.5in;z-index:1;color:#fff}
 .hero img.logo{width:1.9in;display:block;margin-bottom:.22in}
@@ -20,7 +20,7 @@ h1,h2,h3{font-family:"Libre Baskerville",Georgia,serif}
 .lines h2{font-size:16pt;color:var(--blue)}
 .lines .sub{font-size:9pt;color:var(--muted);margin-top:.04in}
 .grid{display:grid;grid-template-columns:repeat(5,1fr);gap:.14in;margin-top:.2in}
-.it img{width:100%;height:1.45in;object-fit:cover;display:block;border-radius:.04in}
+.it img{width:100%;aspect-ratio:4/3;height:auto;object-fit:cover;display:block;border-radius:.04in}
 .it h3{font-size:9pt;margin-top:.08in;color:var(--blue2);line-height:1.25}
 .it p{font:500 7.6pt/1.4 Montserrat;color:var(--muted);margin-top:.03in}
 .it p b{color:var(--ink)}
@@ -35,7 +35,7 @@ h1,h2,h3{font-family:"Libre Baskerville",Georgia,serif}
 .box p{font:500 9pt/1.5 Montserrat}
 .big{font:700 26pt "Libre Baskerville",serif;color:var(--blue)}
 .big small{font:600 9pt Montserrat;color:var(--muted)}
-.truck{display:grid;grid-template-columns:repeat(3,1fr);gap:.14in;margin-top:.3in}.truck img{width:100%;height:2.1in;object-fit:cover;border-radius:.06in;display:block}
+.truck{margin-top:.3in}.truck img{width:100%;height:3.1in;object-fit:cover;object-position:50% 62%;border-radius:.06in;display:block}
 .centers{display:grid;grid-template-columns:repeat(4,1fr);gap:.12in;margin-top:.12in}
 .centers div{font:500 7.8pt/1.4 Montserrat}
 .centers b{display:block;font:700 9pt Montserrat;color:var(--blue2)}
@@ -62,11 +62,11 @@ section:nth-of-type(2) .sample{color:var(--muted)}
     <h2>Our product lines</h2>
     <div class="sub">Starting prices, plus sales tax. Rent-to-own amounts are 60 months. Pricing effective 7.1.26 (pavilions 8.1.26).</div>
     <div class="grid">
-      <div class="it"><img src="lp.jpg"><h3>LP SmartSide Sheds</h3><p>From <b>$2,725</b><br>or $100.93/mo</p></div>
-      <div class="it"><img src="lpg.jpg"><h3>LP SmartSide Garages</h3><p>From <b>$5,635</b><br>or $208.70/mo</p></div>
-      <div class="it"><img src="vy.jpg"><h3>Custom Vinyl Structures</h3><p>From <b>$3,895</b><br>or $144.26/mo</p></div>
-      <div class="it"><img src="vyg.jpg"><h3>Vinyl Garages</h3><p>From <b>$7,495</b><br>or $277.59/mo</p></div>
-      <div class="it"><img src="pav.jpg"><h3>Timber Frame Pavilions</h3><p>From <b>$2,800</b><br>or $103.70/mo</p></div>
+      <div class="it"><img src="lp.jpg" style="object-position:50% 60%"><h3>LP SmartSide Sheds</h3><p>From <b>$2,725</b><br>or $100.93/mo</p></div>
+      <div class="it"><img src="lpg.jpg" style="object-position:50% 55%"><h3>LP SmartSide Garages</h3><p>From <b>$5,635</b><br>or $208.70/mo</p></div>
+      <div class="it"><img src="vy.jpg" style="object-position:45% 60%"><h3>Custom Vinyl Structures</h3><p>From <b>$3,895</b><br>or $144.26/mo</p></div>
+      <div class="it"><img src="vyg.jpg" style="object-position:50% 55%"><h3>Vinyl Garages</h3><p>From <b>$7,495</b><br>or $277.59/mo</p></div>
+      <div class="it"><img src="pav.jpg" style="object-position:50% 55%"><h3>Timber Frame Pavilions</h3><p>From <b>$2,800</b><br>or $103.70/mo</p></div>
     </div>
   </div>
   <div style="margin:.25in .6in 0;padding:.18in .3in;background:#fff;border-left:.05in solid var(--tan);font:italic 400 11pt/1.55 'Libre Baskerville',serif;color:var(--blue2)">"We work for you. Please, do not hesitate to discuss as we specialize in giving you a better value, plus better quality, and lifetime warranty."<div style="font:600 8.5pt Montserrat;font-style:normal;color:var(--muted);margin-top:.08in">Caleb Schlabach, Owner</div></div>
@@ -88,7 +88,7 @@ section:nth-of-type(2) .sample{color:var(--muted)}
         <p>Free delivery within 250 miles of Liverpool, PA (excluding NY). Beyond 250 miles, $5 per mile, one way.</p>
       </div>
     </div>
-    <div class="truck"><img src="g1.jpg"><img src="g2.jpg"><img src="g3.jpg"></div>
+    <div class="truck"><img src="truck.jpg"></div>
     <h3 style="margin-top:.3in;color:#2A4650;font-size:13pt">Visit our sales centers · Mon–Sat, 9am–6pm</h3>
     <div class="centers">
       <div><b>Selinsgrove</b>6354 Susquehanna Trail<br>Port Trevorton, PA 17864</div>
