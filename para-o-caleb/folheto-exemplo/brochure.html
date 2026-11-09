@@ -1,0 +1,105 @@
+<!doctype html><html><head><meta charset="utf-8"><link href="fonts-local.css" rel="stylesheet">
+<style>
+@page{size:8.5in 11in;margin:0}
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--blue:#355561;--blue2:#2A4650;--tan:#D9B98A;--cream:#F6F1E8;--ink:#23262A;--muted:#5D6468}
+body{font-family:Montserrat,Arial,sans-serif;color:var(--ink)}
+.page{width:8.5in;height:11in;position:relative;overflow:hidden;page-break-after:always;background:var(--cream)}
+h1,h2,h3{font-family:"Libre Baskerville",Georgia,serif}
+/* PAGE 1 */
+.hero{height:4.9in;background:#2A4650 url(hero.jpg) center 35%/cover;position:relative}
+.hero:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(35,55,64,.15) 0%,rgba(35,55,64,.85) 100%)}
+.hero .in{position:absolute;left:.6in;right:.6in;bottom:.5in;z-index:1;color:#fff}
+.hero img.logo{width:1.9in;display:block;margin-bottom:.22in}
+.hero h1{font-size:30pt;line-height:1.12;font-weight:700}
+.hero p{font:500 11pt/1.5 Montserrat;margin-top:.12in;color:#EDE6DA;max-width:5.4in}
+.band{background:var(--blue);color:#fff;display:flex;justify-content:space-between;padding:.2in .6in}
+.band div{font:600 8.5pt/1.35 Montserrat;letter-spacing:.3pt}
+.band b{display:block;font:700 13pt "Libre Baskerville",serif;color:var(--tan)}
+.lines{padding:.32in .6in 0}
+.lines h2{font-size:16pt;color:var(--blue)}
+.lines .sub{font-size:9pt;color:var(--muted);margin-top:.04in}
+.grid{display:grid;grid-template-columns:repeat(5,1fr);gap:.14in;margin-top:.2in}
+.it img{width:100%;aspect-ratio:4/3;height:auto;object-fit:cover;display:block;border-radius:.04in}
+.it h3{font-size:9pt;margin-top:.08in;color:var(--blue2);line-height:1.25}
+.it p{font:500 7.6pt/1.4 Montserrat;color:var(--muted);margin-top:.03in}
+.it p b{color:var(--ink)}
+.foot{position:absolute;left:.6in;right:.6in;bottom:.35in;display:flex;justify-content:space-between;font:600 8.5pt Montserrat;color:var(--blue);border-top:1px solid #D7CFC2;padding-top:.12in}
+/* PAGE 2 */
+.p2{padding:.55in .6in}
+.p2 h2{font-size:20pt;color:var(--blue);line-height:1.2}
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:.3in;margin-top:.3in}
+.box{background:#fff;border-radius:.06in;padding:.24in;border-top:.05in solid var(--tan)}
+.box h3{font-size:12pt;color:var(--blue2);margin-bottom:.1in}
+.box li{font:500 9pt/1.5 Montserrat;margin-left:.16in;margin-bottom:.03in}
+.box p{font:500 9pt/1.5 Montserrat}
+.big{font:700 26pt "Libre Baskerville",serif;color:var(--blue)}
+.big small{font:600 9pt Montserrat;color:var(--muted)}
+.truck{margin-top:.3in}.truck img{width:100%;height:3.1in;object-fit:cover;object-position:50% 62%;border-radius:.06in;display:block}
+.centers{display:grid;grid-template-columns:repeat(4,1fr);gap:.12in;margin-top:.12in}
+.centers div{font:500 7.8pt/1.4 Montserrat}
+.centers b{display:block;font:700 9pt Montserrat;color:var(--blue2)}
+.contact{position:absolute;left:0;right:0;bottom:0;background:var(--blue);color:#fff;padding:.32in .6in;display:flex;justify-content:space-between;align-items:center}
+.contact .ph{font:700 20pt "Libre Baskerville",serif}
+.contact .d{font:500 9pt/1.6 Montserrat;color:#E7DFD2;text-align:right}
+.sample{position:absolute;top:.18in;right:.25in;font:600 6.5pt Montserrat;letter-spacing:1pt;color:rgba(255,255,255,.75);z-index:2;text-transform:uppercase}
+section:nth-of-type(2) .sample{color:var(--muted)}
+</style></head><body>
+<section class="page">
+  <div class="sample">Sample brochure · Design concept by Nordic Wave Marketing</div>
+  <div class="hero"><div class="in">
+    <img class="logo" src="logo.png" alt="">
+    <h1>Sheds, Garages, Barns &amp; More</h1>
+    <p>Handcrafted by a local family business in Liverpool, PA. Backed by our Lifetime Warranty.</p>
+  </div></div>
+  <div class="band">
+    <div><b>40 years</b>Lifetime Warranty</div>
+    <div><b>250 miles</b>Free delivery from Liverpool, PA</div>
+    <div><b>$100.93/mo</b>Rent-to-own from</div>
+    <div><b>4</b>Sales centers in PA</div>
+  </div>
+  <div class="lines">
+    <h2>Our product lines</h2>
+    <div class="sub">Starting prices, plus sales tax. Rent-to-own amounts are 60 months. Pricing effective 7.1.26 (pavilions 8.1.26).</div>
+    <div class="grid">
+      <div class="it"><img src="lp.jpg" style="object-position:50% 60%"><h3>LP SmartSide Sheds</h3><p>From <b>$2,725</b><br>or $100.93/mo</p></div>
+      <div class="it"><img src="lpg.jpg" style="object-position:50% 55%"><h3>LP SmartSide Garages</h3><p>From <b>$5,635</b><br>or $208.70/mo</p></div>
+      <div class="it"><img src="vy.jpg" style="object-position:45% 60%"><h3>Custom Vinyl Structures</h3><p>From <b>$3,895</b><br>or $144.26/mo</p></div>
+      <div class="it"><img src="vyg.jpg" style="object-position:50% 55%"><h3>Vinyl Garages</h3><p>From <b>$7,495</b><br>or $277.59/mo</p></div>
+      <div class="it"><img src="pav.jpg" style="object-position:50% 55%"><h3>Timber Frame Pavilions</h3><p>From <b>$2,800</b><br>or $103.70/mo</p></div>
+    </div>
+  </div>
+  <div style="margin:.25in .6in 0;padding:.18in .3in;background:#fff;border-left:.05in solid var(--tan);font:italic 400 11pt/1.55 'Libre Baskerville',serif;color:var(--blue2)">"We work for you. Please, do not hesitate to discuss as we specialize in giving you a better value, plus better quality, and lifetime warranty."<div style="font:600 8.5pt Montserrat;font-style:normal;color:var(--muted);margin-top:.08in">Caleb Schlabach, Owner</div></div>
+  <div class="foot"><span>classicshedbuilders.com</span><span>Call 814.470.4494</span></div>
+</section>
+<section class="page">
+  <div class="sample">Sample brochure · Design concept by Nordic Wave Marketing</div>
+  <div class="p2">
+    <h2>Get the building you need now.</h2>
+    <div class="cols">
+      <div class="box"><h3>Easy Rent-to-Own</h3>
+        <div class="big">$100.93<small> /month</small></div>
+        <p style="margin:.06in 0 .1in;color:#5D6468">Backyard Utility 8' x 10': $2,725 cash or $100.93 a month on 60-month rent-to-own.</p>
+        <ul><li>Only one month's rent down, and you get free delivery</li><li>60, 48, 36 or 24 months</li><li>Plus sales tax</li><li>Over $15,000, 10% down is required. Maximum contract $25,000</li></ul>
+      </div>
+      <div class="box"><h3>Lifetime Warranty</h3>
+        <p>We stand behind every building with a Lifetime Warranty that covers your building in full, for 40 years, on vinyl and LP SmartSide. Non-transferable.</p>
+        <h3 style="margin-top:.2in">Free Delivery</h3>
+        <p>Free delivery within 250 miles of Liverpool, PA (excluding NY). Beyond 250 miles, $5 per mile, one way.</p>
+      </div>
+    </div>
+    <div class="truck"><img src="truck.jpg"></div>
+    <h3 style="margin-top:.3in;color:#2A4650;font-size:13pt">Visit our sales centers · Mon–Sat, 9am–6pm</h3>
+    <div class="centers">
+      <div><b>Selinsgrove</b>6354 Susquehanna Trail<br>Port Trevorton, PA 17864</div>
+      <div><b>Beaver Springs</b>22210 Rt 522<br>Beaver Springs, PA 17812</div>
+      <div><b>Clarion</b>82 Chevy Lane<br>Clarion, PA 16214</div>
+      <div><b>Muncy</b>2705 PA 442<br>Muncy, PA 17756</div>
+    </div>
+  </div>
+  <div class="contact">
+    <div><div class="ph">814.470.4494</div><div style="font:500 9pt Montserrat;color:#E7DFD2;margin-top:.04in">Text 814.441.2899</div></div>
+    <div class="d">classicstructurespa@gmail.com<br>classicshedbuilders.com<br>Classic Shed Builders LLC</div>
+  </div>
+</section>
+</body></html>
