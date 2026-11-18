@@ -1,0 +1,63 @@
+<!doctype html><html><head><meta charset="utf-8">
+<link href="fonts-local.css" rel="stylesheet">
+<style>
+@page{size:3.75in 2.25in;margin:0}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{background:#fff}
+:root{--maroon:#26352D;--maroon2:#33463C;--tan:#D8BE95;--brown:#9B6C36;--cream:#EFEEEB;--ink:#26241F}
+.card{width:3.75in;height:2.25in;position:relative;overflow:hidden;page-break-after:always;font-family:Montserrat,Arial,sans-serif}
+/* FRONT */
+.front{background:var(--maroon)}
+.front .photo{position:absolute;top:0;right:0;bottom:0;width:1.45in;background:url(truck.jpg) 92% 50%/cover no-repeat}
+.front .photo:before{content:"";position:absolute;inset:0;border-left:.025in solid var(--tan)}
+.front .info{position:absolute;left:.3in;top:.34in;width:1.95in;color:var(--cream)}
+.front .logo{display:block;width:.98in;margin-left:0}
+.front h1{font:700 10.2pt/1.1 "Libre Baskerville",Georgia,serif;color:#fff;margin-top:.075in;white-space:nowrap}
+.front .role{font:600 5.2pt/1 Montserrat;letter-spacing:1.2pt;text-transform:uppercase;color:var(--tan);margin-top:.05in}
+.front .rule{width:.4in;height:.011in;background:var(--tan);margin:.075in 0 .065in}
+.front dl{display:grid;grid-template-columns:.29in 1fr;row-gap:.018in;font:500 6pt/1.3 Montserrat;color:var(--cream)}
+.front dt{font:600 4.6pt/1.6 Montserrat;letter-spacing:.6pt;text-transform:uppercase;color:var(--tan)}
+.front dd b{font-weight:700;color:#fff;font-size:6.6pt;letter-spacing:.2pt}
+.front .who{font:500 5.6pt/1.2 Montserrat;color:#fff;margin-bottom:.045in}.front .who b{font-weight:700}
+.front .addr{font:500 5.4pt/1.35 Montserrat;color:#E6D9C6;margin-top:.05in}
+/* BACK */
+.back .strip{position:absolute;left:0;right:0;top:1.04in;height:.71in;display:flex;gap:.02in;background:var(--tan);border-top:.02in solid var(--tan)}
+.back .strip i{flex:1;background-size:cover;background-position:50% 50%}
+.back{background:var(--cream);color:var(--ink)}
+.back .top{position:absolute;left:0;right:0;top:0;height:.48in;display:flex;align-items:flex-end;justify-content:center;padding-bottom:.02in}
+.back .top p{font:700 8.4pt/1 "Libre Baskerville",Georgia,serif;color:var(--maroon2);letter-spacing:.2pt}
+.back .qrs{position:absolute;left:.32in;right:.32in;top:.3in;display:flex;justify-content:space-between}
+.back .q{width:.92in;text-align:center}
+.back .box{width:.46in;height:.46in;margin:0 auto;border:.01in dashed #A99A86;display:flex;align-items:center;justify-content:center;font:600 5pt Montserrat;color:#A99A86;letter-spacing:.8pt;background:#fff}
+.back .q .n{font:700 6.2pt/1 "Libre Baskerville",serif;color:var(--brown);margin-top:.045in}
+.back .q .t{font:500 5pt/1.2 Montserrat;color:#5C5249;margin-top:.025in}
+.back .bar{position:absolute;left:0;right:0;top:1.75in;bottom:0;background:var(--maroon);color:var(--cream);display:flex;flex-direction:column;align-items:center;justify-content:flex-start;padding-top:.045in;gap:.022in}
+.back .bar .a{font:600 5.2pt/1 Montserrat;letter-spacing:.5pt}
+.back .bar .b{font:700 6.2pt/1 Montserrat;letter-spacing:1.2pt;color:var(--tan);text-transform:uppercase}
+</style></head><body>
+<section class="card front">
+  <div class="photo"></div>
+  <div class="info">
+    <img class="logo" src="logo.png" alt="">
+    <h1>Classic Shed Builders</h1>
+    <div class="role">Sheds &middot; Garages &middot; Barns &amp; More</div>
+    <div class="rule"></div>
+    <div class="who"><b>Benuel Stoltzfus</b> &middot; Shed Delivery Scheduling</div>
+    <dl>
+      <dt>Call</dt><dd><b>814.470.4494</b></dd>
+      <dt>Text</dt><dd><b>814.441.2899</b></dd>
+      <dt>Email</dt><dd>classicstructurespa@gmail.com</dd>
+    </dl>
+    <div class="addr">110 Davidson Rd &middot; Liverpool, PA 17045</div>
+  </div>
+</section>
+<section class="card back">
+  <div class="strip"><i style="background-image:url(p1.jpg)"></i><i style="background-image:url(p2.jpg)"></i><i style="background-image:url(p3.jpg)"></i></div>
+  <div class="qrs">
+    <div class="q"><div class="box">QR</div><div class="n">Design</div><div class="t">Build your shed online</div></div>
+    <div class="q"><div class="box">QR</div><div class="n">Deliver</div><div class="t">See how we deliver</div></div>
+    <div class="q"><div class="box">QR</div><div class="n">In Stock</div><div class="t">Ready to go now</div></div>
+  </div>
+  <div class="bar"><div class="a">Free delivery within 250 miles of Liverpool, PA (excludes NY)</div><div class="b">classicshedbuilders.com</div></div>
+</section>
+</body></html>
